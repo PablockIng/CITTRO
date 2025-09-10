@@ -72,7 +72,7 @@ function Formulario() {
         {/* Encabezado */}
         <div className="text-center mb-10">
           <h1 className="text-4xl font-extrabold text-green-800 drop-shadow-md mb-4">
-            Regístrate en Fundación Eco Entre Nubes
+            ANIMATE
           </h1>
           <p className="text-lg text-gray-700">
             Únete a nuestra comunidad y participa en proyectos de sostenibilidad ambiental

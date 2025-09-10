@@ -3,18 +3,20 @@ import Home from './pages/Home';
 import Lab from './pages/Lab';
 import Fungi from './pages/Fungi';
 import Pack from './pages/Pacak';
+import Formulario from './pages/Formulario'; // Importa el componente Formulario
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header style={headerStyle}>
-        <h1>CITTRO</h1>
+        <h1>CITRO</h1>
         <nav style={navStyle}>
-          <Link style={linkStyle} to="/">Inicio</Link>
+          <Link style={linkStyle} to="/">INICIO</Link>
           <Link style={linkStyle} to="/lab">LAB</Link>
           <Link style={linkStyle} to="/fungi">FUNGI</Link>
           <Link style={linkStyle} to="/pack">PACAK</Link>
+  
         </nav>
       </header>
       <div style={{ padding: '2rem' }}>
@@ -23,6 +25,7 @@ function App() {
           <Route path="/lab" element={<Lab />} />
           <Route path="/fungi" element={<Fungi />} />
           <Route path="/pack" element={<Pack />} />
+          <Route path="/Formulario" element={<Formulario />} /> {/* Agrega esta ruta */}
         </Routes>
       </div>
     </div>
@@ -49,4 +52,3 @@ const linkStyle = {
 };
 
 export default App;
-
